@@ -15,26 +15,22 @@ Django: Django is a high-level Python web framework that encourages rapid develo
 HTML: HTML is the standard markup language for creating web pages and web applications.
 CSS: CSS is a style sheet language used for describing the presentation of a document written in HTML.
 
-
 Project Structure
 
 project/
 │
 ├── main/
 │   ├── templates/
-│   │   ├── main/
-│   │   │   ├── base.html
-│   │   │   ├── home.html
-│   │   │   ├── about.html
-│   │   │   ├── contact.html
-│   │   │   └── services.html
+│   │   └── main/
+│   │       ├── base.html
+│   │       ├── home.html
+│   │       ├── about.html
+│   │       ├── contact.html
+│   │       └── services.html
 │   │
-│   ├── static/
-│       ├── css/
+│   └── static/
+│       └── css/
 │           └── styles.css
-│       
-│   
-│   
 │
 ├── project/
 │   ├── settings.py
@@ -45,7 +41,6 @@ project/
 ├── manage.py
 │
 └── README.md
-
 Getting Started
 
 To run this project locally, follow these steps:
