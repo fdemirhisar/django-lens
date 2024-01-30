@@ -1,0 +1,209 @@
+body {
+    background-color: rgb(255, 255, 255); 
+}
+/* styles.css */
+
+/* Flex container for header */
+header {
+    display: flex;
+    justify-content: space-between; /* Distribute items equally along the main axis */
+    align-items: center; /* Center items vertically */
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex; /* Use flexbox for navigation items */
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 5;
+    display: flex; /* Use flexbox for navigation items */
+}
+
+.navbar ul li {
+    margin-right: 20px; /* Adjust spacing between navigation items */
+}
+
+.navbar ul li:last-child {
+    margin-right: 0; /* Remove margin from the last navigation item */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(179, 171, 171);
+}
+
+
+
+
+
+header h1 {
+    border-bottom: 1px solid #000; /* Black thin line below the heading */
+}
+
+nav {
+    border-bottom: 1px solid #000; /* Black thin line below the navigation bar */
+}
+
+.line {
+    height: 3px; /* Adjust the thickness of the line */
+    background-color: #000; /* Color of the line */
+}
+
+.RESEDA {
+    font-size: 60px; /* Adjust the font size of the "RESEDA" text */
+    text-align: left; /* Center-align the text */
+}
+
+#sofia-parazi  {
+    position: bottom;
+    bottom: 10;
+    right: 10;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+    color: #333; /* Adjust color as needed */
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust background color and opacity as needed */
+    z-index: -9999; /* Ensure the text appears above other content */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+
+
+.vision {
+    animation: fadeInUp 1s ease-out;
+}
+
+.mission {
+    animation: fadeInUp 1s ease-out 0s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.mission {
+    
+        background-color: #f9f9f9;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    
+}
+
+
+.vision {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-info img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.contact {
+    animation: fadeInUp 1s ease-out 0s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.RESEDA {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.RESEDA img {
+    width: 45%; /* Adjust the width as needed */
+    margin-bottom: 20px; /* Add space between images */
+}
+
+/* Align every second image to the right */
+.RESEDA img:nth-child(even) {
+    margin-left: auto;
+}
+
+/* Align every second image to the left */
+.RESEDA img:nth-child(odd) {
+    margin-right: auto;
+}
+
+
+
+.sofia {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.sofia img {
+    width: 170px; /* Adjust the width as needed */
+    border-radius: 30%; /* Make the image circular */
+}
+
+
+
